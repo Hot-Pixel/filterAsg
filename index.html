@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="filter">
+            <div class="filter--top">
+                <form action="">
+                    <fieldset data-filter-group>
+                        <select name="" id="ciudadSelect">
+                            <option value="">Sel Ciudad</option>
+                            <option value=".madrid">Madrid</option>
+                            <option value=".barcelona">Barcelona</option>
+                            <option value=".sevilla">Sevilla</option>
+                        </select>
+                    </fieldset>
+                    <fieldset data-filter-group>
+                        <select name="">
+                            <option value="">Sel Habita</option>
+                            <option value=".dormitorio1">1</option>
+                            <option value=".dormitorios2">2</option>
+                            <option value=".dormitorios3">3</option>
+                        </select>
+                    </fieldset>
+                    <button type="submit" id="filterBtn" disabled>Tócame</button>
+                </form>
+            </div>
+            <div class="filter--bottom" data-filter-group="pepitos">
+                <button class="btn__pepito" id="pepito1" data-filter=".pepito1">pepito 1</button>
+                <button class="btn__pepito" id="pepito2" data-filter=".pepito2">pepito 2</button>
+                <button class="btn__pepito" id="pepito3" data-filter=".pepito3">pepito 3</button>
+            </div>
+        </section>
+        <section class="grid">
+            <img class="mix pepito1 madrid dormitorios2" src="img/img-grid-1.jpg" alt="">
+            <img class="mix pepito2 barcelona dormitorios3" src="img/img-grid-2.jpg" alt="">
+            <img class="mix pepito1 valencia dormitorio1" src="img/img-grid-3.jpg" alt="">
+            <img class="mix pepito2 madrid dormitorios2" src="img/img-grid-4.jpg" alt="">
+            <img class="mix pepito3 barcelona dormitorios2" src="img/img-grid-5.jpg" alt="">
+            <img class="mix pepito1 barcelona dormitorio1" src="img/img-grid-6.jpg" alt="">
+            <img class="mix pepito3 madrid dormitorios2" src="img/img-grid-7.jpg" alt="">
+            <img class="mix pepito3 valencia dormitorios2" src="img/img-grid-8.jpg" alt="">
+            <img class="mix pepito1 sevilla dormitorio1" src="img/img-grid-9.jpg" alt="">
+            <img class="mix pepito3 madrid dormitorios2" src="img/img-grid-10.jpg" alt="">
+            <img class="mix pepito1 valencia dormitorio1" src="img/img-grid-11.jpg" alt="">
+            <img class="mix pepito2 sevilla dormitorios3" src="img/img-grid-12.jpg" alt="">
+            <img class="mix pepito1 madrid dormitorios2" src="img/img-grid-1.jpg" alt="">
+            <img class="mix pepito2 barcelona dormitorios3" src="img/img-grid-2.jpg" alt="">
+            <img class="mix pepito1 valencia dormitorio1" src="img/img-grid-3.jpg" alt="">
+            <img class="mix pepito2 madrid dormitorios3" src="img/img-grid-4.jpg" alt="">
+            <img class="mix pepito3 barcelona dormitorios2" src="img/img-grid-5.jpg" alt="">
+            <img class="mix pepito1 barcelona dormitorio1" src="img/img-grid-6.jpg" alt="">
+            <img class="mix pepito3 madrid dormitorios2" src="img/img-grid-7.jpg" alt="">
+            <img class="mix pepito3 valencia dormitorios2" src="img/img-grid-8.jpg" alt="">
+            <img class="mix pepito1 sevilla dormitorio1" src="img/img-grid-9.jpg" alt="">
+            <img class="mix pepito3 madrid dormitorios3" src="img/img-grid-10.jpg" alt="">
+            <img class="mix pepito1 valencia dormitorio1" src="img/img-grid-11.jpg" alt="">
+            <img class="mix pepito2 sevilla dormitorios3" src="img/img-grid-12.jpg" alt="">
+        </section>
+
+        <div class="load-more-wrapper">
+            <button type="button" class="load-more">Load more</button>
+        </div>
+
+    </main>
+
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/mixitup-multifilter.min.js"></script>
+    <script src="js//mixitup-pagination.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
